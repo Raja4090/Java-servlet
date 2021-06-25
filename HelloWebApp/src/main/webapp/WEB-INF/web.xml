@@ -1,0 +1,13 @@
+<web-app>
+
+<servlet>
+<servlet-name>Raja</servlet-name>
+<servlet-class>com.phoenix.web.GreetingServlet</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+<servlet-name>Raja</servlet-name>
+<url-pattern>/greet</url-pattern>
+</servlet-mapping>
+</web-app>
